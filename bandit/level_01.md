@@ -21,9 +21,6 @@
 > [!TIP]
 > Copying the passwords of every level into a text file is a **MUST** if you don't want to start from the beginning every time.
 
-> [!TIP]
-> With the command ```man``` you can find out what new commands do (e.g. ```man cat``` shows the manual for cat).
-
 
 [^1]:[Ls man page](https://manpages.ubuntu.com/manpages/noble/man1/ls.1.html)
 [^2]:[Cat man page](https://manpages.ubuntu.com/manpages/noble/man1/cat.1.html)
