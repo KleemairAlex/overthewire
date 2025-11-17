@@ -14,9 +14,16 @@ So to connect to the overthewire host of the first level **you can _not_ just ru
 ssh bandit.labs.overthewire.org 
 ```
 You also need a username so the exact level can be clarified. 
-To clarify the username simply write the username with an @ before the host.
+To clarify the username simply write the username with an @ before the host. You also need to clarify the port to which you want to connect to. The port can be specified by adding ```-p "portnumber"``` after the host. 
+So the full command looks like this:
+```
+ssh username@host -p port
+```
 After hitting enter you are prompted for the password which is provided on the [overthewire website](https://overthewire.org/wargames/bandit/bandit0.html).
 
 <br><br><br>
+
+>[!TIP]
+>
 
 [^1]:[Secure shell Wikipedia page](https://en.wikipedia.org/wiki/Secure_Shell)
