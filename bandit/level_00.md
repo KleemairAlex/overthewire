@@ -23,7 +23,7 @@ After hitting enter you are prompted for the password which is provided on the [
 
 <br><br><br>
 
->[!TIP]
->
+> [!TIP]
+> With the command ```man``` you can find out what new commands do (e.g. ```man ssh``` shows the manual for ssh).
 
 [^1]:[Secure shell Wikipedia page](https://en.wikipedia.org/wiki/Secure_Shell)
