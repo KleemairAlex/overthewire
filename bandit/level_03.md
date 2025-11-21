@@ -20,6 +20,6 @@ The third level is similiar to the second level.
 ```
 cat ./"--spaces in this filename--"
 ```
-5. After running the command you are presented with the next password. Copy it into your text file and disconneting from the current level.
+5. After running the command you are presented with the next password. Copy it into your text file and disconnect from the current level.
 
 <br><br><br>
