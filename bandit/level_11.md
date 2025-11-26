@@ -8,16 +8,21 @@
 
 
 ## Concept learned
-- <br><br>
+- Decoding Base64 from the command line<br><br>
 
 ## Commands used
-- [^1] <br><br>
+- base64[^1] <br><br>
 
 ### Walkthrough
 1.  Connect to the overthewire host with the username bandit10 and the password you found in the previous level.
-2.  
-4.  The output will contain the password. Copy it into your text file and disconnect from the current level.
+2.  The password is once again hidden in data.txt. This time you don't have to search for password - it is right there when you run ```cat data.txt``` but the problem is that it is Base-64-encoded.
+3.  So decode it using ```base64```:
+    ```
+    base64 -d data.txt 
+    ```
+    -d stands for decode
+4.  The decoded output will contain the password. Copy it into your text file and disconnect from the current level.
 
 <br><br><br>
 
-[^1]:[man page]()
+[^1]:[base64 man page](https://man7.org/linux/man-pages/man1/base64.1.html)
